@@ -1,0 +1,56 @@
+# Site settings
+title: I.E. N° 88047 Augusto Salazar Bondy
+description: Estudio, honradez y disciplina
+cover: assets/images/cover.jpg # radhakrishna.jpg
+logo: assets/images/logo.png
+favicon: assets/images/favicon.png
+baseurl: "/" # the subpath of your site, e.g. /blog/ or / for root
+url: "http://asb.edu.pe" # the base hostname & protocol for your site
+paginate: 5 # The number of posts to show per page on your homepage
+
+# Social
+facebook: ieasb88047
+twitter: ieasb
+# github: github
+
+#Additional Pages
+about: el-colegio
+contact: contacto
+#privacy-policy: privacy-policy
+
+permalink: /:title
+
+
+# Google Analytics
+analytics_id: ""
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  parse_block_html: true
+
+plugins:
+  - jekyll-paginate
+
+
+# Settings for rake task
+safe: False
+lsi: False
+username: samanyougarg #github username
+repo: hanuman #github repository
+branch: master #branch
+relative_source: ../hanuman/ #source directory
+destination: ../hanuman-pages/ #destination directory
+production_url:  https://samanyougarg.com/
+source_url:  https://github.com/samanyougarg/hanuman #source repository url
+
+exclude:
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - changelog.md
+  - "*.Rmd"
+  - vendor
+  - .travis.yml
