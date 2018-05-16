@@ -28,17 +28,17 @@
             {% if site.about %}
 
             <li class="px1">
-                <a class="text-decoration-none ampstart-label" href="{{site.baseurl}}{{site.about}}">El Colegio</a>
+                <a class="text-decoration-none ampstart-label" href="{{ site.about | prepend:site.baseurl }}">El Colegio</a>
             </li>
             {% endif %} {% if site.contact %}
 
             <li class="px1">
-                <a class="text-decoration-none ampstart-label" href="{{site.baseurl}}{{site.contact}}">Contacto</a>
+                <a class="text-decoration-none ampstart-label" href="{{ site.contact | prepend:site.baseurl }}">Contacto</a>
             </li>
             {% endif %} {% if site.privacy-policy %}
 
             <li class="px1">
-                <a class="text-decoration-none ampstart-label" href="{{site.baseurl}}{{site.privacy-policy}}">Privacy Policy</a>
+                <a class="text-decoration-none ampstart-label" href="{{ site.privacy-policy | prepend:site.baseurl }}">Privacy Policy</a>
             </li>
             {% endif %}
 
