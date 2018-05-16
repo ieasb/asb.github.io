@@ -5,6 +5,10 @@ title: Contacto
 permalink: /contacto/
 ---
 
+<p>{{ site.url }}</p>
+<p>{{ site.baseurl }}</p>
+<p>{{ site.contact }}</p>
+
 <p align="center">
 Av. Huarmey 101, cruce con la Av. Chimbote.  
 Urbanización Buenos Aires  
