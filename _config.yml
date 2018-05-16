@@ -1,7 +1,7 @@
 # Site settings
 title: I.E. N° 88047 Augusto Salazar Bondy
 description: Estudio, honradez y disciplina
-cover: assets/images/cover.jpg # radhakrishna.jpg
+cover: assets/images/cover.jpg
 logo: assets/images/logo.png
 favicon: assets/images/favicon.png
 baseurl: "/" # the subpath of your site, e.g. /blog/ or / for root
