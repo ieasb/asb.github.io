@@ -15,15 +15,18 @@
   </div>
   <nav class="ampstart-sidebar-nav ampstart-nav">
     <ul class="list-reset m0 p0 ampstart-label">
-        {% for entry in site.data.navigation %}
-            {% if entry.url == current_page %}
-                {% assign current = 'current' %}
-            {% else %}
-                {% assign current = null %}
-            {% endif %}
-      <li class="ampstart-nav-item ampstart-nav-dropdown relative {{ current }}">
-          <li class="ampstart-faq-item"><a href="{{ entry.url | relative_url }}" class="text-decoration-none">{{ entry.title }}</a></li>
-      </li>
+      {% for entry in site.data.navigation %}
+        {% if entry.url == current_page %}
+          {% assign current = 'current' %}
+        {% else %}
+          {% assign current = null %}
+        {% endif %}
+        {% if entry.url == blank or entry.url == null %}
+          {% assign entry_url = '/' %}
+        {% else %}
+          {% assign entry_url = entry.url %}
+        {% endif %}
+        <li class="ampstart-faq-item {{ current }}"><a href="{{ entry_url | relative_url }}" class="text-decoration-none">{{ entry.title }}</a></li>
       {% endfor %}
     </ul>
   </nav>
