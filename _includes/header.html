@@ -3,7 +3,7 @@
     <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger  pr2  ">☰
     </div>
     {% if site.logo %}
-    <a class="my0 mx-auto" href="{{ site.baseurl }}"><amp-img src="{{ site.logo | absolute_url }}" width="110" height="33" layout="fixed" class="my0 mx-auto" alt="Logo"></amp-img></a>
+    <a class="my0 mx-auto" href="{{ site.baseurl }}"><amp-img src="{{ site.logo | relative_url }}" width="110" height="33" layout="fixed" class="my0 mx-auto" alt="Logo"></amp-img></a>
     {% endif %}
   </header>
 
@@ -22,7 +22,7 @@
                 {% assign current = null %}
             {% endif %}
       <li class="ampstart-nav-item ampstart-nav-dropdown relative {{ current }}">
-          <li class="ampstart-faq-item"><a href="{{ entry.url | absolute_url }}" class="text-decoration-none">{{ entry.title }}</a></li>
+          <li class="ampstart-faq-item"><a href="{{ entry.url | relative_url }}" class="text-decoration-none">{{ entry.title }}</a></li>
       </li>
       {% endfor %}
     </ul>
@@ -44,10 +44,10 @@
 
   <ul class="ampstart-sidebar-faq list-reset m0">
   {% if site.contact %}
-    <li class="ampstart-faq-item"><a href="{{ site.contact | absolute_url }}" class="text-decoration-none">Contacto</a></li>
+    <li class="ampstart-faq-item"><a href="{{ site.contact | relative_url }}" class="text-decoration-none">Contacto</a></li>
   {% endif %}
   {% if site.privacy-policy %}
-    <li class="ampstart-faq-item"><a href="{{ site.privacy-policy | absolute_url }}" class="text-decoration-none">Privacy Policy</a></li>
+    <li class="ampstart-faq-item"><a href="{{ site.privacy-policy | relative_url }}" class="text-decoration-none">Privacy Policy</a></li>
   {% endif %}
   </ul>
 </amp-sidebar>
