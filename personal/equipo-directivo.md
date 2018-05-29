@@ -5,13 +5,13 @@ permalink: /personal/equipo-directivo
 ---
 
 **Director**
-: Muñoz Pacheco Luis Alberto
+: Luis Alberto Muñoz Pacheco
 
 **Sub-Director Secundaria**
-: Rodríguez Montenegro José Luis
+: José Luis Rodríguez Montenegro
 
-**Sub Director administrativo Secundaria**
-: Ninaquispe Chuquimango Pablo
+**Sub Director Administrativo Secundaria**
+: Pablo Ninaquispe Chuquimango
 
 **Sub-Directora Primaria**
-: Hidalgo Salazar Yola Zulema
+: Yola Zulema Hidalgo Salazar
