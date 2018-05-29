@@ -38,6 +38,99 @@ brindar a la colectividad educativa de Nuevo Chimbote su mayor calidad
 profesional y técnica. 
 </p>
 
+<amp-carousel id="carousel-with-preview"
+  width="450"
+  height="300"
+  layout="responsive"
+  type="slides"
+  autoplay
+  controls
+  loop>
+  <amp-img src="/assets/images/el-colegio/image1.jpg"
+    width="450"
+    height="300"
+    layout="responsive"></amp-img>
+  <amp-img src="/assets/images/el-colegio/image2.jpg"
+    width="450"
+    height="300"
+    layout="responsive"></amp-img>
+  <amp-img src="/assets/images/el-colegio/image3.jpg"
+    width="450"
+    height="300"
+    layout="responsive"></amp-img>
+  <amp-img src="/assets/images/el-colegio/image4.jpg"
+    width="450"
+    height="300"
+    layout="responsive"></amp-img>
+  <amp-img src="/assets/images/el-colegio/image5.jpg"
+    width="450"
+    height="300"
+    layout="responsive"></amp-img>
+  <amp-img src="/assets/images/el-colegio/image6.jpg"
+    width="450"
+    height="300"
+    layout="responsive"></amp-img>
+  <amp-img src="/assets/images/el-colegio/image7.jpg"
+    width="450"
+    height="300"
+    layout="responsive"></amp-img>
+  <amp-img src="/assets/images/el-colegio/image8.jpg"
+    width="450"
+    height="300"
+    layout="responsive"></amp-img>
+  <amp-img src="/assets/images/el-colegio/image9.jpg"
+    width="450"
+    height="300"
+    layout="responsive"></amp-img>
+</amp-carousel>
+<div class="carousel-preview">
+  <button on="tap:carousel-with-preview.goToSlide(index=0)">
+    <amp-img src="/assets/images/el-colegio/image1.jpg"
+      width="60"
+      height="40"></amp-img>
+  </button>
+  <button on="tap:carousel-with-preview.goToSlide(index=1)">
+    <amp-img src="/assets/images/el-colegio/image2.jpg"
+      width="60"
+      height="40"></amp-img>
+  </button>
+  <button on="tap:carousel-with-preview.goToSlide(index=2)">
+    <amp-img src="/assets/images/el-colegio/image3.jpg"
+      width="60"
+      height="40"></amp-img>
+  </button>
+  <button on="tap:carousel-with-preview.goToSlide(index=3)">
+    <amp-img src="/assets/images/el-colegio/image4.jpg"
+      width="60"
+      height="40"></amp-img>
+  </button>
+  <button on="tap:carousel-with-preview.goToSlide(index=4)">
+    <amp-img src="/assets/images/el-colegio/image5.jpg"
+      width="60"
+      height="40"></amp-img>
+  </button>
+  <button on="tap:carousel-with-preview.goToSlide(index=5)">
+    <amp-img src="/assets/images/el-colegio/image6.jpg"
+      width="60"
+      height="40"></amp-img>
+  </button>
+  <button on="tap:carousel-with-preview.goToSlide(index=6)">
+    <amp-img src="/assets/images/el-colegio/image7.jpg"
+      width="60"
+      height="40"></amp-img>
+  </button>
+  <button on="tap:carousel-with-preview.goToSlide(index=7)">
+    <amp-img src="/assets/images/el-colegio/image8.jpg"
+      width="60"
+      height="40"></amp-img>
+  </button>
+  <button on="tap:carousel-with-preview.goToSlide(index=8)">
+    <amp-img src="/assets/images/el-colegio/image9.jpg"
+      width="60"
+      height="40"></amp-img>
+  </button>
+</div>
+
 <p align="justify">
 Desde 1965, año en el que inicia su funcionamiento la Institución Educativa
 “Augusto Salazar Bondy” hasta la fecha, un haz luminoso marca el camino del

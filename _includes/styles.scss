@@ -318,6 +318,19 @@ body {
     amp-img, amp-youtube {
       margin-top: 30px;
     }
+    // AMP Carousel
+    .carousel-preview {
+        // margin-top: 5px;
+        text-align: center;
+        button {
+            padding: 0;
+            border: none;
+            background: 0 0;
+        }
+        p, amp-img {
+            margin: 0;
+        }
+    }
     figure {
       margin: 0;
       padding: 0 0 30px;
