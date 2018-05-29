@@ -11,8 +11,6 @@ permalink: /personal/primaria
 : Gladys Flores García
 : Yanina Yovera Acaro
 
-: Ernán Lunarejo Milla
-
 ## Auxiliar de Educación
 
 &nbsp;
