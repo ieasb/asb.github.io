@@ -38,7 +38,7 @@ layout: default
       <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
         <div class="article-item">
           <header class="post-header">
-            <h2 class="post-title" itemprop="name"><a href="{{ site.baseurl }}{{ post.url | remove: '/'}}" itemprop="url">{{ post.title }}</a></h2>
+            <h2 class="post-title" itemprop="name"><a href="{{ post.url | relative_url}}" itemprop="url">{{ post.title }}</a></h2>
           </header>
           <section class="post-excerpt" itemprop="description">
             <p class="post-description">{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
@@ -47,7 +47,7 @@ layout: default
             {% for author in site.data.authors %}
               {% if author[1].username == post.author %}
                 {% if author[1].assets %}<amp-img width="24" height="24" class="author-thumb" layout="responsive" src="{{ site.baseurl }}{{author[1].assets}}" alt="{{author[1].name}}"/></amp-img>{% endif %}
-                <a href="{{site.baseurl}}authors/#{{author[1].username}}">{{author[1].name}}</a>
+                <a href="{{site.baseurl}}autores/#{{author[1].username}}">{{author[1].name}}</a>
               {% endif %}
             {% endfor %}
 

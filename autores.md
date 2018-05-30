@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Authors
+title: Autores
 comments: false
-permalink: /authors/
+permalink: /autores/
 ---
 
 <div id="authors">
@@ -12,7 +12,13 @@ permalink: /authors/
 {% for post in site.posts %}
 {% if author[1].username == post.author %}
 {% if post.title != null %}
-<li itemscope><span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span> &raquo; <a href="{{ site.baseurl }}{{ post.url | remove: '/'}}">{{ post.title }}</a></li>
+<li itemscope>
+  <span class="entry-date">
+    <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time>
+  </span>
+  &raquo;
+  <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+</li>
 {% endif %}
 {% endif %}
 {% endfor %}

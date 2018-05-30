@@ -1,16 +1,26 @@
-hanuman:
-  username: hanuman
-  name: HANUMAN
-  location: Ayodhya
-  url_full: https://hanumanchalisa.net
-  url: hanumanchalisa.net
-  bio: Jai Shri Ram!
-  assets: assets/images/hanuman.png
-krishna:
-  username: krishna
-  name: KRISHNA
-  location: Vrindavan
-  url_full: https://shriradhakrishna.com
-  url: shriradhakrishna.com
-  bio: Radhe! Radhe!
+#hanuman:
+#  username: hanuman
+#  name: HANUMAN
+#  location: Ayodhya
+#  url_full: https://hanumanchalisa.net
+#  url: hanumanchalisa.net
+#  bio: Jai Shri Ram!
+#  assets: assets/images/hanuman.png
+#krishna:
+#  username: krishna
+#  name: KRISHNA
+#  location: Vrindavan
+#  url_full: https://shriradhakrishna.com
+#  url: shriradhakrishna.com
+#  bio: Radhe! Radhe!
+#  assets: assets/images/favicon.png
+mateodurand:
+  username: mateodurand
+  name: Mateo Durand Huachuronto
+  location: Nuevo Chimbote, Perú
+  bio: >
+    Mateo Durand es un reconocido y honorable ex profesor salazarino. Él es
+    muy bien recordado en su encomiable labor para la realización anual del
+    "Intercambio Cultural Artístico y Gimnasia de Evoluciones" cuya intención
+    fue promover un encuentro cultural y de paz entre colegios de la localidad.
   assets: assets/images/favicon.png
