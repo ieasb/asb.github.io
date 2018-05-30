@@ -60,10 +60,8 @@ layout: default
           {% if page.tags.size > 0 %}
           <span class="ampstart-subtitle block px3 pt2 mb2">
                         {% for tag in page.tags %}
-                            {% if forloop.index == page.tags.size %}
-                               <a href='{{site.baseurl}}tags/#{{tag}}'>{{ tag | capitalize }}</a>
-                            {% else %}
-                               <a href='{{site.baseurl}}tags/#{{tag}}'>{{ tag | capitalize }}</a>,
+                            <a href='{{ "tags#" | append: tag | relative_url }}'>{{ tag | capitalize }}</a>
+                            {% if forloop.index != page.tags.size %},
                             {% endif %}
                         {% endfor %}
           </span>
