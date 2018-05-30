@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Hemos construido una eterna amistad
+title: "Poema: Hemos construido una eterna amistad"
 date: 2018-05-29 19:24:00
-category: Contribuciones
+category: ["columnas", "mateo-durand"]
 tags: poema
-author: mateodurand
+author: mateo-durand
 permalink: /blog/:categories/:title/
 ---
 
