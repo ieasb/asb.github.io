@@ -5,7 +5,7 @@ date: 2018-05-29 19:24:00
 category: Contribuciones
 tags: poema
 author: mateodurand
-permalink: /blog/:year/:month/:day/:title/
+permalink: /blog/:categories/:title/
 ---
 
 <h2 align="center">I</h2>
