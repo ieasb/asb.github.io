@@ -9,7 +9,7 @@ permalink: /contacto/
 Av. Chimbote s/n, cruce con la Av. Huarmey.  
 Urbanización Buenos Aires  
 Nuevo Chimbote, Perú.  
-**Teléfono:** 043-315148  
+**Teléfono:** 043-316148  
 **Correo electrónico:** hola@asb.edu.pe
 </p>
 
