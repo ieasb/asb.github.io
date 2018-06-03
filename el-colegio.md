@@ -29,8 +29,8 @@ dirección, secretaría y subdirecciones.
 
 <p align="justify">
 A partir de 1978, asumió la dirección el profesor Pedro Quinteros Gonzáles, bajo
-cuya conducción se dio por iniciado el nivel secundario con el 1ro. y 2do.
-grado. En 1986 asumió la conducción de esta importante institución educativa la
+cuya conducción se dio por iniciado el nivel secundario con el primer y segundo
+grado. En 1986, asumió la conducción de esta importante institución educativa la
 destacada profesora Norma Silva Cabel, contando con la inmediata colaboración
 de una clasificada plana jerárquica, docente y administrativa que han hecho de
 esta casa de estudios un crisol donde de plasman los más grandes esfuerzos por
@@ -132,6 +132,23 @@ profesional y técnica.
 </div>
 
 <p align="justify">
+En junio del 2005, asume la conducción de la institución educativa, como
+director, el profesor Justiniano Ramos Vásquez, contando con el apoyo del
+profesor Roberto Gutiérrez Valverde en la subdirección de formación general y
+de la profesora María Terrones Jáuregui en la subdirección de primaria a partir
+del año 2008, manteniéndose al cargo de la dirección hasta el año 2014.
+</p>
+
+<p align="justify">
+En el año 2015, se hace cargo de nuestra institución educativa un nuevo
+equipo directivo conformado por los docentes: Luis Alberto Muñoz Pacheco en
+la Dirección, José Luis Rodríguez Montenegro en la Subdirección de Educación
+Secundaria, Percy Antonio López Villón en la Subdirección Administrativa, así
+como por la experimentada docente Yola Zulema Hidalgo Salazar en la
+Subdirección de Educación Primaria.
+</p>
+
+<p align="justify">
 Desde 1965, año en el que inicia su funcionamiento la Institución Educativa
 “Augusto Salazar Bondy” hasta la fecha, un haz luminoso marca el camino del
 éxito alcanzando siempre los niveles más competitivos en el campo académico,
@@ -143,20 +160,12 @@ servicio de la nación y forjando su porvenir.
 </p>
 
 <p align="justify">
-En junio del 2005, asume la conducción de la institución educativa, como
-director, el profesor Justiniano Ramos Vásquez, contando con el apoyo del
-profesor Roberto Gutiérrez Valverde en la subdirección de formación general y
-de la profesora María Terrones Jáuregui en la subdirección de primaria a partir
-del año 2008.
-</p>
-
-<p align="justify">
-Como mérito al esfuerzo conjunto se han obtenido siempre los primeros lugares
-en diversos concursos de conocimiento como también en los desfiles organizados
-por la superioridad. Perseverar en más logros, alcanzar los mayores éxitos,
-impulsar atinadamente el patrimonio educativo: padres, alumnos, profesores; en
-un importante ente que consolide una educación para la vida con valores, son
-las metas de su actual administración.
+Como mérito al esfuerzo conjunto de la comunidad educativa, la institución ha
+obtenido siempre los primeros lugares en diversos concursos de conocimiento
+como también en los desfiles organizados por la superioridad. Perseverar en
+más logros, alcanzar los mayores éxitos, impulsar atinadamente el patrimonio
+educativo: padres, alumnos, profesores; en un importante ente que consolide una
+educación para la vida con valores, son las metas de su actual administración.
 </p>
 
 <p align="justify">
