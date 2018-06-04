@@ -35,7 +35,14 @@ layout: default
 
   <div class="cf frame">
     {% for post in paginator.posts %}
-      {% assign post_url = post.url | relative_url %}
+      {% assign post_url = post.url | relative_url %}i
+
+      {% assign month = post.date | date: "%-m" | minus: 1 %}
+      {% assign day_part = post.date | date:'%d' %}
+      {% assign month_part = site.data.locale.months[month] | truncate: 3, "" %}
+      {% assign year_part = post.date | date:'%Y' %}
+      {% assign post_formatted_date = day_part | append: " " | append: month_part | append: " " | append: year_part %}
+
       <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
         <div class="article-item">
           <header class="post-header">
@@ -63,7 +70,7 @@ layout: default
                     {% endif %}
                 {% endfor %}
             {% endif %}
-              <time class="post-date" datetime="{{ post.date | date:'%Y-%m-%d' }}">{{ post.date | date_to_string }}</time>
+              <time class="post-date" datetime="{{ post.date | date:'%Y-%m-%d' }}">{{ post_formatted_date }}</time>
           </div>
         </div>
       </article>

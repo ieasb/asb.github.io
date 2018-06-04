@@ -25,8 +25,17 @@ permalink: /tags/
   <h2 id="{{ this_word | cgi_escape }}">{{ this_word }}</h2>
   <ul class="posts">
     {% for post in site.tags[this_word] %}{% if post.title != null %}
+
+    {% assign month = post.date | date: "%-m" | minus: 1 %}
+    {% assign day_part = post.date | date:'%d' %}
+    {% assign month_part = site.data.locale.months[month] %}
+    {% assign year_part = post.date | date:'%Y' %}
+    {% assign post_formatted_date = day_part | append: " " | append: month_part | append: ", " | append: year_part %}
+
     <li itemscope>
-      <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span> &raquo;
+      <span class="entry-date">
+        <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post_formatted_date }}</time>
+      </span> &raquo;
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </li>
     {% endif %}{% endfor %}

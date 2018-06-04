@@ -1,6 +1,12 @@
 ---
 layout: default
 ---
+  {% assign month = page.date | date: "%-m" | minus: 1 %}
+  {% assign day_part = page.date | date:'%e' %}
+  {% assign month_part = site.data.locale.months[month] | downcase %}
+  {% assign year_part = page.date | date:'%Y' %}
+  {% assign post_formatted_date = day_part | append: " de " | append: month_part | append: " de " | append: year_part %}
+
   {% if page.cover %}
   <figure class="ampstart-image-fullpage-hero m0 relative mb4">
     <amp-img width="404" height="720" alt="{{ page.title }}" layout="responsive" src="{{ site.baseurl }}{{ page.cover }}" media="(max-width: 415px)"></amp-img>
@@ -29,7 +35,7 @@ layout: default
   <main id="content" role="main" class="">
     <article class="photo-article">
       <div class="post-meta mb4 px3">
-        <time class="post-date" datetime="{{ page.date | date:'%Y-%m-%d' }}">{{ page.date | date_to_string }}</time>
+        <time class="post-date" datetime="{{ page.date | date:'%Y-%m-%d' }}">{{ post_formatted_date }}</time>
 
         {% if page.tags.size > 0 %}
             in
@@ -69,7 +75,7 @@ layout: default
           <h1 class="mb1 px3">{{page.title}}</h1>
 
           <address class="ampstart-byline clearfix mb4 px3 h5">
-            <time class="ampstart-byline-pubdate block bold my1" datetime="{{ page.date | date:'%e %B %Y' }}">{{ page.date | date:'%e %B %Y' }}</time>
+            <time class="ampstart-byline-pubdate block bold my1" datetime="{{ page.date | date:'%e %B %Y' }}">{{ post_formatted_date }}</time>
           </address>
         </header>
 
