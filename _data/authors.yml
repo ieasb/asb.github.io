@@ -3,7 +3,7 @@ luismunoz:
   name: Luis Muñoz Pacheco
   location: Nuevo Chimbote, Perú
   bio:   
-  assets: assets/images/autores/luis-munoz.jpg
+  # assets: assets/images/autores/luis-munoz.jpg
 mateodurand:
   username: mateo-durand
   name: Mateo Durand Huachuronto
