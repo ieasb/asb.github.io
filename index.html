@@ -35,7 +35,7 @@ layout: default
 
   <div class="cf frame">
     {% for post in paginator.posts %}
-      {% assign post_url = post.url | relative_url %}i
+      {% assign post_url = post.url | relative_url %}
 
       {% assign month = post.date | date: "%-m" | minus: 1 %}
       {% assign day_part = post.date | date:'%d' %}
