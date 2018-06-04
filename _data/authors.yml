@@ -2,7 +2,11 @@ luismunoz:
   username: luis-munoz
   name: Luis Muñoz Pacheco
   location: Nuevo Chimbote, Perú
-  bio:   
+  bio: >
+    Luis Alberto Muñoz Pacheco es director de la institución educativa Augusto
+    Salazar Bondy. Él es un educador reconocido en la localidad, tiene el
+    grado de magíster y también se desempeña como catedrático en la Universidad
+    Católica Los Ángeles de Chimbote.
   # assets: assets/images/autores/luis-munoz.jpg
 mateodurand:
   username: mateo-durand
