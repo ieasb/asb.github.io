@@ -149,14 +149,14 @@ Subdirección de Educación Primaria.
 </p>
 
 <p align="justify">
-Desde 1965, año en el que inicia su funcionamiento la Institución Educativa
-“Augusto Salazar Bondy” hasta la fecha, un haz luminoso marca el camino del
-éxito alcanzando siempre los niveles más competitivos en el campo académico,
-deportivo, disciplinario y cívico. Está considerada como una de las mejores
-instituciones, reconocimiento que se merece tanto a nivel local como nacional.
-Son grandes las satisfacciones que nuestros alumnos nos brindan y que decir de
-nuestros ex-alumnos, abnegados y responsables ciudadanos profesionales al
-servicio de la nación y forjando su porvenir.
+Es así como esde 1965, año en el que inicia su funcionamiento la Institución
+Educativa “Augusto Salazar Bondy” hasta la fecha, un haz luminoso marca el
+camino del éxito alcanzando siempre los niveles más competitivos en el campo
+académico, deportivo, disciplinario y cívico. Está considerada como una de
+las mejores instituciones, reconocimiento que se merece tanto a nivel local
+como nacional. Son grandes las satisfacciones que nuestros alumnos nos brindan
+y que decir de nuestros ex alumnos, abnegados y responsables ciudadanos
+profesionales al servicio de la nación y forjando su porvenir.
 </p>
 
 <p align="justify">
