@@ -50,7 +50,11 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "feed.xml" | absolute_url }}">
 
   <script type="application/ld+json">
-  {% include metadata.json %}
+  {% if page.layout == 'post' %}
+    {% include metadata_post.json %}
+  {% else %}
+    {% include metadata.json %}
+  {% endif %}
   </script>
 
   <style amp-custom>

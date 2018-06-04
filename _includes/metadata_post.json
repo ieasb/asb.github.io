@@ -1,0 +1,35 @@
+{% assign post_author = site.title %}
+{% for author in site.data.authors %}
+  {% if author[1].username == page.author %}
+    {% assign post_author = author[1].name %}
+  {% endif %}
+{% endfor %}
+{
+  "@context": "http://schema.org",
+  "@type": "NewsArticle",
+  "mainEntityOfPage": "{{ page.url | replace:'index.html','' | absolute_url }}",
+  "headline": "{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}",
+  "datePublished": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+  "dateModified": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+  "description": "{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ post_author }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.logo | absolute_url }}",
+      "width": "60",
+      "height": "60"
+    }
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "{{ site.logo | absolute_url }}",
+    "height": "60",
+    "width": "60"
+  }
+}
