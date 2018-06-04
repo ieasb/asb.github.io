@@ -4,7 +4,7 @@
   "name": "{{ site.title }}",
   "url": "{{ '' | absolute_url }}",
   "mainEntityOfPage": "{{ page.url | replace:'index.html','' | absolute_url }}",
-  "description": "site.meta_description",
+  "description": "{{ site.meta_description }}",
   "image": {
     "@type": "ImageObject",
     "url": "{{ site.logo | absolute_url }}",
