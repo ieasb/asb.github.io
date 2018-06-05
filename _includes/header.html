@@ -2,11 +2,12 @@
   <header class="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4 ">
     <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger  pr2  ">☰
     </div>
-    {% if site.logo %}
-    <a class="my0 mx-auto" href="{{ "/" | relative_url }}"><amp-img src="{{ site.logo | relative_url }}" width="165" height="33" layout="fixed" class="my0 mx-auto" alt="Logo"></amp-img></a>
+    {% if site.logo_banner %}
+    <a class="my0 mx-auto" href="{{ "/" | relative_url }}">
+      <amp-img src="{{ site.logo_banner | relative_url }}" width="165" height="33" layout="fixed" class="my0 mx-auto" alt="Logo"></amp-img>
+    </a>
     {% endif %}
   </header>
-
 
 <!-- Start Sidebar -->
 <amp-sidebar id="header-sidebar" class="ampstart-sidebar px3" layout="nodisplay">

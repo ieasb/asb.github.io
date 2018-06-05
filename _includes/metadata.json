@@ -8,8 +8,8 @@
   "image": {
     "@type": "ImageObject",
     "url": "{{ site.logo | absolute_url }}",
-    "height": "60",
-    "width": "60"
+    "height": "1512",
+    "width": "1298"
   },
   "sameAs": [
       "https://facebook.com/{{ site.facebook }}",
