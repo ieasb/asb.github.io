@@ -51,7 +51,7 @@ kramdown:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-
+  - jekyll-feed
 
 # Settings for rake task
 safe: False
