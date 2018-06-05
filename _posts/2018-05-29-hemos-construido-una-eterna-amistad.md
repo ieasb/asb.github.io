@@ -8,7 +8,7 @@ author: mateo-durand
 permalink: /blog/:categories/:title/
 ---
 
-<h2 align="center">I</h2>
+<p align="center"><strong>I</strong></p>
 <p align="center">
 ¡OH!  MIS ENTRAÑABLES EX ALUMNOS  
 DE LA MARAVILLOSA PROMOCIÓN  
@@ -21,7 +21,7 @@ DEL QUEHACER COTIDIANO
 QUE SON PARTE DE LA VIDA EN TODA INSTITUCIÓN EDUCATIVA.
 </p>
 
-<h2 align="center">II</h2>
+<p align="center"><strong>II</strong></p>
 <p align="center">
 ¡MIS QUERIDOS EX ALUMNOS DE LA PROMOCIÓN  
 1992 “HAYDE RIVERA DE LAVANDER”…!  
@@ -36,7 +36,7 @@ Y EL FRUTO ESPLENDOROSO DE UNA ETERNA AMISTAD
 QUE HEMOS CONSTRUIDO DÍA A DIÁ EN LA AULAS SALAZARINAS  
 </p>
 
-<h2 align="center">III</h2>
+<p align="center"><strong>III</strong></p>
 <p align="center">
 ¡MIS QUERIDOS EX ALUMNOS…!  
 EL ENLACE DE CORAZÓN A CORAZÓN ENTRE MAESTRO Y ALUMNO  
@@ -48,7 +48,7 @@ UNA AMISTAD QUE PERMANECE VIVA  Y RELUCIENTE
 TRASCENDIENTO EL TIEMPO Y EL ESPACIO.  
 </p>
 
-<h2 align="center">IV</h2>
+<p align="center"><strong>IV</strong></p>
 <p align="center">
 ¡ESTIMADOS EX ALUMNOS…!  
 HEMOS TENIDO LA BUENA FORTUNA DE HABERNOS CONOCIDO  
@@ -63,7 +63,7 @@ ACTUANDO SIEMPRE, CON ALEGRÍA, ESPERANZA, CORAJE, SABIDURÍA
 Y UN PROFUNDO AMOR COMPASIVO.  
 </p>
 
-<h2 align="center">V</h2>
+<p align="center"><strong>V</strong></p>
 <p align="center">
 ¡QUERIDOS EX ALUMNOS…!  
 SEAMOS SIEMPRE COMUNICATIVOS Y  
@@ -81,7 +81,7 @@ Y CONTRIBUIR AL FORTALECIMIENTO
 DE LOS IDELAES DE LA PAZ, QUE PROPUGNA LAS NACIONES UNIDAS.  
 </p>
 
-<h2 align="center">VI</h2>
+<p align="center"><strong>VI</strong></p>
 <p align="center">
 ¡MIS ENTRAÑABLES EX ALUMNOS SALAZARINOS…!  
 MI GRAN MAESTRO, DAISAKU IKEDA, DICE:  
@@ -97,7 +97,7 @@ POR FAVOR, PERMANEZCAN SIEMPRE JUNTO A SUS AMIGOS,
 CON LEALTAD INVARIABLE.”
 </p>
 
-<h2 align="center">VII</h2>
+<p align="center"><strong>VII</strong></p>
 <p align="center">
 ASIMILANDO EN NUESTRO CORAZÓN  
 ESTAS SINCERAS PALABRAS DE MI MAESTRO DAISAKU IKEDA,  
