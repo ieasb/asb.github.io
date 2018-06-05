@@ -10,6 +10,7 @@
 
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.meta_description | truncate: 300 }}{% endif %}">
   <meta name="keywords" content="{{ site.meta_keywords }}{% if page.tags %}, {{ page.tags }}{% endif %}">
+  {% if page.url == "/" %}{% feed_meta %}{% endif %}
 
   {% assign canonical_url_size = page.url | size | minus: 1 %}
   {% assign canonical_url_last_char = page.url | slice: canonical_url_size, 1 %}
