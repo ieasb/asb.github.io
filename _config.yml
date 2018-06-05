@@ -50,6 +50,7 @@ kramdown:
 
 plugins:
   - jekyll-paginate
+  - jekyll-sitemap
 
 
 # Settings for rake task
