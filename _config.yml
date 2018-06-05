@@ -9,8 +9,18 @@ url: "https://asb.edu.pe" # the base hostname & protocol for your site
 paginate: 5 # The number of posts to show per page on your homepage
 
 # Meta tags
-meta_description: "La institución educativa N° 88047 Augusto Salazar Bondy forja la excelencia. Su lema es Estudio, honradez y disciplina."
-meta_keywords: "augusto salazar bondy, bondy, colegio, nuevo chimbote, chimbote, primaria, secundaria, institucion educativa, high school, insignia, institutos, estudio, honradez, disciplina"
+meta_description: >
+  La Institución Educativa N° 88047 “Augusto Salazar Bondy” fue creada
+  con R.D.Z. N° 2370 con fecha 6 de Junio de 1965. Está considerada como
+  una de las mejores instituciones, reconocimiento que se merece tanto a
+  nivel local como nacional. Son grandes las satisfacciones que nuestros
+  alumnos nos brindan y que decir de nuestros ex alumnos, abnegados y
+  responsables ciudadanos profesionales al servicio de la nación y
+  forjando su porvenir.
+meta_keywords: >
+  augusto salazar bondy, bondy, colegio, nuevo chimbote, chimbote,
+  primaria, secundaria, institucion educativa, high school, insignia,
+  institutos, estudio, honradez, disciplina
 
 # Social
 facebook: ieasb88047

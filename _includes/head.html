@@ -8,7 +8,7 @@
 
   <title>{% if page.layout == 'page' or page.layout == 'post' %}{{ page.title | escape }} | {{ site.title | escape }}{% elsif page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
 
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.meta_description }}{% endif %}">
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.meta_description | truncate: 300 }}{% endif %}">
   <meta name="keywords" content="{{ site.meta_keywords }}{% if page.tags %}, {{ page.tags }}{% endif %}">
 
   {% assign canonical_url_size = page.url | size | minus: 1 %}
