@@ -19,13 +19,13 @@ layout: default
     </header>
     {% if site.cover %}
     <footer class="absolute left-0 right-0 bottom-0">
-      <a class="ampstart-readmore py3 caps line-height-2 text-decoration-none center block h5" href="#content">
+      <a class="ampstart-readmore py3 caps line-height-2 text-decoration-none center block h5" href="#content" title="Leer más">
         <span class="ampstart-readmore-text px1">Leer m&#xE1;s</span>
       </a>
     </footer>
     {% else %}
     <footer class="absolute left-0 right-0 bottom-0">
-      <a class="ampstart-read py3 caps line-height-2 text-decoration-none center block h5" href="#content">
+      <a class="ampstart-read py3 caps line-height-2 text-decoration-none center block h5" href="#content" title="Leer más">
         <span class="ampstart-readmore-text px1">Leer m&#xE1;s</span>
       </a>
     </footer>
@@ -62,7 +62,7 @@ layout: default
                 {% if author[1].assets %}
                   <amp-img width="24" height="24" class="author-thumb" layout="responsive" src="{{ site.baseurl }}{{author[1].assets}}" alt="{{author[1].name}}"></amp-img>
                 {% endif %}
-                <a href="{{ "autores#" | append: author[1].username | relative_url }}" itemprop="author">{{ author[1].name }}</a>
+                <a href="{{ "autores#" | append: author[1].username | relative_url }}" itemprop="author" title="{{ author[1].name }}">{{ author[1].name }}</a>
               {% endif %}
             {% endfor %}
 

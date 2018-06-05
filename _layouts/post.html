@@ -21,13 +21,15 @@ layout: default
         <h2 class="ampstart-fullpage-hero-heading mb0">
           {% if page.author %}
           <span class="ampstart-fullpage-hero-heading-text description">
-            By <b><a href="#" role="author" class="text-decoration-none author">{{page.author}}</a></b>
+            By <b><a href="#" role="author" class="text-decoration-none author" title="{{ page.author }}">{{page.author}}</a></b>
           </span>
           {% endif %}
         </h2>
       </header>
       <footer class="absolute left-0 right-0 bottom-0">
-        <a class="ampstart-readmore py3 caps line-height-2 text-decoration-none center block h5" href="#content"><span class="ampstart-readmore-text px1">Read more</span></a>
+        <a class="ampstart-readmore py3 caps line-height-2 text-decoration-none center block h5" href="#content" title="Leer más">
+          <span class="ampstart-readmore-text px1">Leer más</span>
+        </a>
       </footer>
     </figcaption>
   </figure>
@@ -101,10 +103,10 @@ layout: default
               <h2 class="ampstart-heading ampstart-label m0 mb3">Related article</h2>
                 <article class="ampstart-related-article">
                     {% if post.cover %}
-                    <amp-img src="{{ site.baseurl }}{{ post.cover }}" width="656" height="350" layout="responsive" alt="" class="mb3"></amp-img>
+                    <amp-img src="{{ post.cover | relative_url }}" width="656" height="350" layout="responsive" alt="" class="mb3"></amp-img>
                     {% else %}
                         {% if site.cover %}
-                        <amp-img src="{{ site.baseurl }}{{ site.cover }}" width="656" height="350" layout="responsive" alt="" class="mb3"></amp-img>
+                        <amp-img src="{{ site.cover | relative_url }}" width="656" height="350" layout="responsive" alt="" class="mb3"></amp-img>
                         {% endif %}
                     {% endif %}
                     {% assign count = 0 %}
@@ -121,7 +123,7 @@ layout: default
                               {{ post.content | strip_html | truncatewords:15 }}
                             {% endif %}
                             </p>
-                            <a href="{{ site.baseurl }}{{ post.url | remove: '/' }}" class="ampstart-rekated-article-readmore block text-decoration-none ampstart-label">Leer más</a>
+                            <a href="{{ post.url | relative_url }}" class="ampstart-rekated-article-readmore block text-decoration-none ampstart-label" title="Leer más">Leer más</a>
                           {% endif %}
                         {% endif %}
                       {% endif %}

@@ -3,7 +3,7 @@
     <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger  pr2  ">☰
     </div>
     {% if site.logo_banner %}
-    <a class="my0 mx-auto" href="{{ "/" | relative_url }}">
+    <a class="my0 mx-auto" href="{{ "/" | relative_url }}" title="Inicio">
       <amp-img src="{{ site.logo_banner | relative_url }}" width="165" height="33" layout="fixed" class="my0 mx-auto" alt="Logo"></amp-img>
     </a>
     {% endif %}
@@ -84,10 +84,14 @@
 
   <ul class="ampstart-sidebar-faq list-reset m0">
   {% if site.contact %}
-    <li class="ampstart-faq-item"><a href="{{ site.contact | relative_url }}" class="text-decoration-none">Contacto</a></li>
+    <li class="ampstart-faq-item">
+      <a href="{{ site.contact | relative_url }}" class="text-decoration-none" title="Contacto">Contacto</a>
+    </li>
   {% endif %}
   {% if site.privacy-policy %}
-    <li class="ampstart-faq-item"><a href="{{ site.privacy-policy | relative_url }}" class="text-decoration-none">Privacy Policy</a></li>
+    <li class="ampstart-faq-item">
+      <a href="{{ site.privacy-policy | relative_url }}" class="text-decoration-none" title="Política de privacidad">Política de privacidad</a>
+    </li>
   {% endif %}
   </ul>
 </amp-sidebar>
