@@ -13,7 +13,7 @@ permalink: /el-colegio/
 <p align="justify">
 La Institución Educativa N° 88047 "Augusto Salazar Bondy" fue creada con R.D.Z.
 N° 2370 con fecha 6 de Junio de 1965. Nace como una escuela mixta de educación
-primaria, siendo su primera directora la profesora Haydé Rivera de Lavander,
+primaria, siendo su primera directora la profesora Haydee Rivera de Lavander,
 funcionó inicialmente en casas particulares de los padres de familia en la
 primera etapa de la Urbanizacíón Buenos Aires.
 </p>
