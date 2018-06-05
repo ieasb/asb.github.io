@@ -36,7 +36,7 @@ permalink: /tags/
       <span class="entry-date">
         <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post_formatted_date }}</time>
       </span> &raquo;
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <a href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li>
     {% endif %}{% endfor %}
   </ul>

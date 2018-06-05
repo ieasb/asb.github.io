@@ -49,22 +49,20 @@
     <nav class="ampstart-footer-nav">
         <ul class="list-reset flex flex-wrap mb3">
             {% if site.about %}
-
             <li class="px1">
-                <a class="text-decoration-none ampstart-label" href="{{ site.about | relative_url }}">El Colegio</a>
-            </li>
-            {% endif %} {% if site.contact %}
-
-            <li class="px1">
-                <a class="text-decoration-none ampstart-label" href="{{ site.contact | relative_url }}">Contacto</a>
-            </li>
-            {% endif %} {% if site.privacy-policy %}
-
-            <li class="px1">
-                <a class="text-decoration-none ampstart-label" href="{{ site.privacy-policy | relative_url }}">Privacy Policy</a>
+                <a class="text-decoration-none ampstart-label" href="{{ site.about | relative_url }}" title="El Colegio">El Colegio</a>
             </li>
             {% endif %}
-
+            {% if site.contact %}
+            <li class="px1">
+                <a class="text-decoration-none ampstart-label" href="{{ site.contact | relative_url }}" title="Contacto">Contacto</a>
+            </li>
+            {% endif %}
+            {% if site.privacy-policy %}
+            <li class="px1">
+                <a class="text-decoration-none ampstart-label" href="{{ site.privacy-policy | relative_url }}" title="Política de privacidad">Politica de privacidad</a>
+            </li>
+            {% endif %}
         </ul>
     </nav>
     <small>
@@ -73,7 +71,7 @@
 
     </small>
     <small>
-      Publicado con <a href="https://jekyllrb.com/">Jekyll</a>
-      usando <a href="https://github.com/samanyougarg/hanuman">Hanuman</a>
+      Publicado con <a href="https://jekyllrb.com/" title="Jekyll">Jekyll</a>
+      usando <a href="https://github.com/samanyougarg/hanuman" title="Hanuman">Hanuman</a>
     </small>
 </footer>
