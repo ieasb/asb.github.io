@@ -7,4 +7,4 @@ permalink: /documentos-internos/
 Reglamento interno
 --
 
-- [Ver archivo](/assets/files/reglamento-interno-2017-2018.pdf){:target="_blank"}
+- [Ver archivo](/assets/files/reglamento-interno-2018-2019.pdf){:target="_blank"}
