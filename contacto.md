@@ -1,6 +1,5 @@
 ---
 layout: page
-cover: 'assets/images/shiva.jpg'
 title: Contacto
 permalink: /contacto/
 ---
