@@ -4,4 +4,4 @@ title: Bondyta y Bondyto
 permalink: /bondyta-bondyto/
 ---
 
-[Episodio 1](/bondyta-bondyto/episodio01)
+[Episodio 1: Bondyta te orienta sobre Aprendo En Casa](/bondyta-bondyto/episodio01)
