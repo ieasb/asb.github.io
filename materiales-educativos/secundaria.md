@@ -32,6 +32,14 @@ permalink: /materiales-educativos/secundaria/
       height="460"
       layout="fixed"></amp-img>
   </a>
+  <a href="https://drive.google.com/open?id=16KwavzpdqS_TrsvEAiuPYSupY5Ix5Ype"
+    alt="Desarrollo Personal, Ciudadanía y Cívica 1: Texto escolar"
+    target="_blank">
+    <amp-img src="/assets/images/materiales-educativos/secundaria/desarrollo-personal-ciudadania-civica-1-texto.jpg"
+      width="344"
+      height="460"
+      layout="fixed"></amp-img>
+  </a>
 </amp-carousel>
 
 <h2>
@@ -58,6 +66,14 @@ permalink: /materiales-educativos/secundaria/
     alt="Resolvamos problemas 2, secundaria: Cuaderno de trabajo de Matemática"
     target="_blank">
     <amp-img src="/assets/images/materiales-educativos/secundaria/resolvamos-problemas-2-secundaria-cuaderno-matematica.jpg"
+      width="344"
+      height="460"
+      layout="fixed"></amp-img>
+  </a>
+  <a href="https://drive.google.com/open?id=19poGDvjo_pem8WMxxNGPGP7Z9Nt8NjL0"
+    alt="Desarrollo Personal, Ciudadanía y Cívica 2: Texto escolar"
+    target="_blank">
+    <amp-img src="/assets/images/materiales-educativos/secundaria/desarrollo-personal-ciudadania-civica-2-texto.jpg"
       width="344"
       height="460"
       layout="fixed"></amp-img>
@@ -100,6 +116,14 @@ permalink: /materiales-educativos/secundaria/
       height="460"
       layout="fixed"></amp-img>
   </a>
+  <a href="https://drive.google.com/open?id=1cDHoQHKlocZtl-MZkg5GZy5OBkTc6opQ"
+    alt="Desarrollo Personal, Ciudadanía y Cívica 3: Texto escolar"
+    target="_blank">
+    <amp-img src="/assets/images/materiales-educativos/secundaria/desarrollo-personal-ciudadania-civica-3-texto.jpg"
+      width="344"
+      height="460"
+      layout="fixed"></amp-img>
+  </a>
 </amp-carousel>
 
 <h2>
@@ -130,6 +154,14 @@ permalink: /materiales-educativos/secundaria/
       height="460"
       layout="fixed"></amp-img>
   </a>
+  <a href="https://drive.google.com/open?id=1KxZYG5bHaIw_yLqyRqPxRj9TIoJ_Vw0m"
+    alt="Desarrollo Personal, Ciudadanía y Cívica 4: Texto escolar"
+    target="_blank">
+    <amp-img src="/assets/images/materiales-educativos/secundaria/desarrollo-personal-ciudadania-civica-4-texto.jpg"
+      width="344"
+      height="460"
+      layout="fixed"></amp-img>
+  </a>
 </amp-carousel>
 
 <h2>
@@ -156,6 +188,14 @@ permalink: /materiales-educativos/secundaria/
     alt="Resolvamos problemas 5, secundaria: Cuaderno de trabajo de Matemática"
     target="_blank">
     <amp-img src="/assets/images/materiales-educativos/secundaria/resolvamos-problemas-5-secundaria-cuaderno-matematica.jpg"
+      width="344"
+      height="460"
+      layout="fixed"></amp-img>
+  </a>
+  <a href="https://drive.google.com/open?id=1y09toMzuxLJktPVvaj1FdpiFoqLIrZ0d"
+    alt="Desarrollo Personal, Ciudadanía y Cívica 5: Texto escolar"
+    target="_blank">
+    <amp-img src="/assets/images/materiales-educativos/secundaria/desarrollo-personal-ciudadania-civica-5-texto.jpg"
       width="344"
       height="460"
       layout="fixed"></amp-img>
