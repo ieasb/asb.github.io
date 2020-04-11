@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Cuadernos de Trabajo de Secundaria
-permalink: /cuadernos-trabajo/secundaria/
+title: Materiales Educativos de Secundaria
+permalink: /materiales-educativos/secundaria/
 ---
 
 <h2>Compresión Lectora</h2>
@@ -13,9 +13,9 @@ permalink: /cuadernos-trabajo/secundaria/
   type="slides"
   controls
   loop>
-  <a href="https://drive.google.com/open?id=1UBgJJB0EU-qab1nJZ9jPWebwBFqS3sFT"
+  <a href=""
     target="_blank">
-    <amp-img src="/assets/images/cuadernos-trabajo/secundaria-comunicacion-1.png"
+    <amp-img src="/assets/images/materiales-educativos/secundaria-comunicacion-1.png"
       width="334"
       height="446"
       layout="fixed"></amp-img>
