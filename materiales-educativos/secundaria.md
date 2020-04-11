@@ -4,94 +4,168 @@ title: Materiales Educativos de Secundaria
 permalink: /materiales-educativos/secundaria/
 ---
 
-<h2>Compresión Lectora</h2>
-
-<amp-carousel id="carousel-comunicacion"
-  width="350"
-  height="315"
-  layout="responsive"
+<h2>
+  <center>1° Grado</center>
+</h2>
+<amp-carousel id="carousel-primero"
+  width="auto"
+  height="460"
+  layout="fixed-height"
   type="slides"
+  autoplay
+  delay="2000"
   controls
   loop>
-  <a href=""
+  <a href="https://drive.google.com/open?id=1S9L3RnlXnEMF67LMjfR_haYYbmdXaqDr"
+    alt="Comprensión lectora 1, secundaria: Cuaderno de trabajo"
     target="_blank">
-    <amp-img src="/assets/images/materiales-educativos/secundaria-comunicacion-1.png"
-      width="334"
-      height="446"
+    <amp-img src="/assets/images/materiales-educativos/secundaria/comprension-lectora-1-secundaria-cuaderno.jpg"
+      width="344"
+      height="460"
       layout="fixed"></amp-img>
   </a>
-  <a href="https://drive.google.com/open?id=1t7MSvbnWew4czwy1X-vF8MzD4-WNVlwT"
+  <a href="https://drive.google.com/open?id=1rVHNQrBEoQV_rlEwuijoN0YM8pTUCG6i"
+    alt="Resolvamos problemas 1, secundaria: Cuaderno de trabajo de Matemática"
     target="_blank">
-    <amp-img src="/assets/images/cuadernos-trabajo/secundaria-comunicacion-2.png"
-      width="334"
-      height="446"
-      layout="fixed"></amp-img>
-  </a>
-  <a href="https://drive.google.com/open?id=1tNRmef26PzdnFT_QPWFQANkfBxqSIQqj"
-    target="_blank">
-    <amp-img src="/assets/images/cuadernos-trabajo/secundaria-comunicacion-3.png"
-      width="334"
-      height="446"
-      layout="fixed"></amp-img>
-  </a>
-  <a href="https://drive.google.com/open?id=1DZdUe40EbbZuyeGFIiaMkPnQCbf32zjR"
-    target="_blank">
-    <amp-img src="/assets/images/cuadernos-trabajo/secundaria-comunicacion-4.png"
-      width="334"
-      height="446"
-      layout="fixed"></amp-img>
-  </a>
-  <a href="https://drive.google.com/open?id=1-Xzev89nyJsqwRuvkeV1RxSPrw8JLtTL"
-    target="_blank">
-    <amp-img src="/assets/images/cuadernos-trabajo/secundaria-comunicacion-5.png"
-      width="334"
-      height="446"
+    <amp-img src="/assets/images/materiales-educativos/secundaria/resolvamos-problemas-1-secundaria-cuaderno-matematica.jpg"
+      width="344"
+      height="460"
       layout="fixed"></amp-img>
   </a>
 </amp-carousel>
 
-<h2>Matemática</h2>
-
-<amp-carousel id="carousel-matematica"
-  width="350"
-  height="315"
-  layout="responsive"
+<h2>
+  <center>2° Grado</center>
+</h2>
+<amp-carousel id="carousel-segundo"
+  width="auto"
+  height="460"
+  layout="fixed-height"
   type="slides"
+  autoplay
+  delay="2000"
   controls
   loop>
-  <a href="https://drive.google.com/open?id=1mvp5rTgu7614mPHG4xa5eSSyms-fpWZ_"
+  <a href="https://drive.google.com/open?id=1syQRaFxjl2NJK9qtzyQOABOHi1GBk9Bj"
+    alt="Comprensión lectora 2, secundaria: Cuaderno de trabajo"
     target="_blank">
-    <amp-img src="/assets/images/cuadernos-trabajo/secundaria-matematica-1.png"
-      width="334"
-      height="446"
+    <amp-img src="/assets/images/materiales-educativos/secundaria/comprension-lectora-2-secundaria-cuaderno.jpg"
+      width="344"
+      height="460"
       layout="fixed"></amp-img>
   </a>
-  <a href="https://drive.google.com/open?id=1bGqJeX_Fl9LYkSAMHm7srvnmEGA_T_ze"
+  <a href="https://drive.google.com/open?id=1XIbJJkacyxWWUl8Cj1jVr4OHcjygL-jS"
+    alt="Resolvamos problemas 2, secundaria: Cuaderno de trabajo de Matemática"
     target="_blank">
-    <amp-img src="/assets/images/cuadernos-trabajo/secundaria-matematica-2.png"
-      width="334"
-      height="446"
+    <amp-img src="/assets/images/materiales-educativos/secundaria/resolvamos-problemas-2-secundaria-cuaderno-matematica.jpg"
+      width="344"
+      height="460"
       layout="fixed"></amp-img>
   </a>
-  <a href="https://drive.google.com/open?id=1cIPJt9pIpg9Wa5eJGP_x-Tl--3bexW-w"
+  <a href="https://drive.google.com/open?id=1XJL2_taolA3nnopOBQjqv7fG55pmoF05"
+    alt="Antología literaria 2"
     target="_blank">
-    <amp-img src="/assets/images/cuadernos-trabajo/secundaria-matematica-3.png"
-      width="334"
-      height="446"
+    <amp-img src="/assets/images/materiales-educativos/secundaria/antologia-literaria-2-secundaria.jpg"
+      width="344"
+      height="460"
       layout="fixed"></amp-img>
   </a>
-  <a href="https://drive.google.com/open?id=15kP10UCYJ-1Any8lTiTeCKY8LLr6oIMx"
+</amp-carousel>
+
+<h2>
+  <center>3° Grado</center>
+</h2>
+<amp-carousel id="carousel-tercero"
+  width="auto"
+  height="460"
+  layout="fixed-height"
+  type="slides"
+  autoplay
+  delay="2000"
+  controls
+  loop>
+  <a href="https://drive.google.com/open?id=1O6F7Rl2bJ89EvQa_B2sw4ir6MV0EDT-p"
+    alt="Comprensión lectora 3, secundaria: Cuaderno de trabajo"
     target="_blank">
-    <amp-img src="/assets/images/cuadernos-trabajo/secundaria-matematica-4.png"
-      width="334"
-      height="446"
+    <amp-img src="/assets/images/materiales-educativos/secundaria/comprension-lectora-3-secundaria-cuaderno.jpg"
+      width="344"
+      height="460"
       layout="fixed"></amp-img>
   </a>
-  <a href="https://drive.google.com/open?id=1QwPr_8c5sZ1HcIlYuTS47PpPiNxjOds3"
+  <a href="https://drive.google.com/open?id=191Y5OHXLYH8yWGR2TVayyeOJGcKJVHtB"
+    alt="Resolvamos problemas 3, secundaria: Cuaderno de trabajo de Matemática"
     target="_blank">
-    <amp-img src="/assets/images/cuadernos-trabajo/secundaria-matematica-5.png"
-      width="334"
-      height="446"
+    <amp-img src="/assets/images/materiales-educativos/secundaria/resolvamos-problemas-3-secundaria-cuaderno-matematica.jpg"
+      width="344"
+      height="460"
+      layout="fixed"></amp-img>
+  </a>
+</amp-carousel>
+
+<h2>
+  <center>4° Grado</center>
+</h2>
+<amp-carousel id="carousel-cuarto"
+  width="auto"
+  height="460"
+  layout="fixed-height"
+  type="slides"
+  autoplay
+  delay="2000"
+  controls
+  loop>
+  <a href="https://drive.google.com/open?id=1gfd4BGQtIabOY6qeLOqBHxgjGQwtG3bH"
+    alt="Comprensión lectora 4, secundaria: Cuaderno de trabajo"
+    target="_blank">
+    <amp-img src="/assets/images/materiales-educativos/secundaria/comprension-lectora-4-secundaria-cuaderno.jpg"
+      width="344"
+      height="460"
+      layout="fixed"></amp-img>
+  </a>
+  <a href="https://drive.google.com/open?id=1620JsIeqwSRCA9MGzkM86YuOr4ZO57-Z"
+    alt="Resolvamos problemas 4, secundaria: Cuaderno de trabajo de Matemática"
+    target="_blank">
+    <amp-img src="/assets/images/materiales-educativos/secundaria/resolvamos-problemas-4-secundaria-cuaderno-matematica.jpg"
+      width="344"
+      height="460"
+      layout="fixed"></amp-img>
+  </a>
+</amp-carousel>
+
+<h2>
+  <center>5° Grado</center>
+</h2>
+<amp-carousel id="carousel-quinto"
+  width="auto"
+  height="460"
+  layout="fixed-height"
+  type="slides"
+  autoplay
+  delay="2000"
+  controls
+  loop>
+  <a href="https://drive.google.com/open?id=1zpSXpajRNWBmmkBHAhzFppDm8Xj9TcMa"
+    alt="Comprensión lectora 5, secundaria: Cuaderno de trabajo"
+    target="_blank">
+    <amp-img src="/assets/images/materiales-educativos/secundaria/comprension-lectora-5-secundaria-cuaderno.jpg"
+      width="344"
+      height="460"
+      layout="fixed"></amp-img>
+  </a>
+  <a href="https://drive.google.com/open?id=1SUGDezzHBSAbN1rOGh23nj-rFQQ-PxNc"
+    alt="Resolvamos problemas 5, secundaria: Cuaderno de trabajo de Matemática"
+    target="_blank">
+    <amp-img src="/assets/images/materiales-educativos/secundaria/resolvamos-problemas-5-secundaria-cuaderno-matematica.jpg"
+      width="344"
+      height="460"
+      layout="fixed"></amp-img>
+  </a>
+  <a href="https://drive.google.com/open?id=1CdotRko1xIHHXX0O2n0tW8dnTCqPRzM4"
+    alt="Antología literaria 5"
+    target="_blank">
+    <amp-img src="/assets/images/materiales-educativos/secundaria/antologia-literaria-5-secundaria.jpg"
+      width="344"
+      height="460"
       layout="fixed"></amp-img>
   </a>
 </amp-carousel>
