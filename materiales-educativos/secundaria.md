@@ -40,6 +40,14 @@ permalink: /materiales-educativos/secundaria/
       height="460"
       layout="fixed"></amp-img>
   </a>
+  <a href="https://drive.google.com/open?id=1rtNkdGKvm9wK2xYdTL_DxBBKOAlHamvQ"
+    alt="Antología literaria 1"
+    target="_blank">
+    <amp-img src="/assets/images/materiales-educativos/secundaria/antologia-literaria-1-secundaria.jpg"
+      width="344"
+      height="460"
+      layout="fixed"></amp-img>
+  </a>
 </amp-carousel>
 
 <h2>
@@ -124,6 +132,14 @@ permalink: /materiales-educativos/secundaria/
       height="460"
       layout="fixed"></amp-img>
   </a>
+  <a href="https://drive.google.com/open?id=1SpchFjwaAvbVLmsrEqEnhCcPfuVKGsko"
+    alt="Antología literaria 3"
+    target="_blank">
+    <amp-img src="/assets/images/materiales-educativos/secundaria/antologia-literaria-3-secundaria.jpg"
+      width="344"
+      height="460"
+      layout="fixed"></amp-img>
+  </a>
 </amp-carousel>
 
 <h2>
@@ -158,6 +174,14 @@ permalink: /materiales-educativos/secundaria/
     alt="Desarrollo Personal, Ciudadanía y Cívica 4: Texto escolar"
     target="_blank">
     <amp-img src="/assets/images/materiales-educativos/secundaria/desarrollo-personal-ciudadania-civica-4-texto.jpg"
+      width="344"
+      height="460"
+      layout="fixed"></amp-img>
+  </a>
+  <a href="https://drive.google.com/open?id=1L3NVoX-pG9JqSv_n7eqcYt1Hs10AzK9O"
+    alt="Antología literaria 4"
+    target="_blank">
+    <amp-img src="/assets/images/materiales-educativos/secundaria/antologia-literaria-4-secundaria.jpg"
       width="344"
       height="460"
       layout="fixed"></amp-img>
